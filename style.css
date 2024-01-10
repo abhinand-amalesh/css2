@@ -1,0 +1,64 @@
+ body {
+  
+    color: #000000;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+ }
+
+ header {
+    padding: 20px;
+    background: #2c9aea;
+    color: #000000; 
+    text-align: center; 
+    
+  }
+
+  nav {
+    text-align: left;
+    font-size:15px;
+    height: 20px;
+    background: #07475a;
+    color: #e3cccc;
+  }
+
+  main{
+    background: #ebbb0d;
+    color: #000000;   
+  
+  }
+  div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+
+  section {
+    
+    margin: 15px;
+    background: #b09230;
+    height: 90px;
+    color: #e3cccc;
+    font-size: 15px;
+  }
+
+  article {
+    margin: 20px;
+    text-align: center;
+    background: #f3a529;
+    color: #e3cccc;   
+    font-size: 10px;
+    height: 20px;
+  }
+
+  aside {
+    padding: 20px;
+    background: #f1421a;
+    color: #000000;   
+  }
+  
+ footer {
+    padding: 20px;
+    background: #28e77b;
+    color: #000000;
+    
+  }
